@@ -33,7 +33,7 @@ export function Gallery() {
             Moments from the campaign trail
           </h2>
           <p className="mt-4 text-pretty text-lg text-muted-foreground">
-            Events, rallies and community gatherings with Dennis Ondati Omari across Gesusu Ward.
+            Events, rallies and community gatherings with Dennis Ondati add . across Gesusu Ward.
           </p>
         </Reveal>
 
