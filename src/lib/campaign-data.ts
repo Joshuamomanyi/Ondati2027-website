@@ -113,14 +113,14 @@ export interface Testimonial {
 export const TESTIMONIALS: Testimonial[] = [
   {
     name: "Everlyne Kwamboka",
-    location: "Nyabigena, Gesusu",
+    location: "Geteri, Gesusu",
     quote:
       "When my son was sent home for fees, Dennis stepped in and cleared his term's balance. Today he is back in school and top of his class.",
     help: "School fees support",
   },
   {
     name: "Josphat Nyabuto",
-    location: "Kegogi",
+    location: "Friends,Kiamokama",
     quote:
       "He gave me the push and the seed capital to open my hardware shop. I now employ two other young men from our village.",
     help: "Business start-up",
@@ -134,7 +134,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     name: "Samwel Ondieki",
-    location: "Bogeka",
+    location: "Masabo Trading Centre",
     quote:
       "When we lost our father, he stood with us through the funeral arrangements. That kindness is something our family will never forget.",
     help: "Funeral assistance",
