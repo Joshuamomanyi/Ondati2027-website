@@ -141,14 +141,14 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     name: "Grace Moraa",
-    location: "Kisii Town",
+    location: "Chibwobi",
     quote:
       "Even from beyond the ward, his support for needy students reached my daughter. He believes in uplifting people, not politics.",
     help: "School fees support",
   },
   {
     name: "Duke Omwenga",
-    location: "Nyamira",
+    location: "Kiomiti, Gesusu",
     quote:
       "I pitched my small poultry idea and he backed it. Six months later I'm supplying eggs to three trading centres.",
     help: "Business start-up",
