@@ -17,7 +17,7 @@ const PHOTOS: Photo[] = [
   { src: "/Ondati-church.jpg", caption: "Listening session with community elders" },
   { src: "/ondati-community.jpg", caption: "Community event and mobilisation drive" },
   { src: "/Ondati-portrait-2.png", caption: "Dennis Ondati Omari — MCA Aspirant portrait" },
-  { src: "/Ondati-cup-3.jpg", caption: "Developing talents in Gesusu" },
+  { src: "/Ondati-cup-2.jpg", caption: "Developing talents in Gesusu" },
   { src: "/dennis-portrait.png", caption: "Dennis Ondati Omari — On the campaign trail" },
 ];
 
