@@ -28,7 +28,7 @@ export function About() {
             About Dennis
           </span>
           <h2 className="mx-auto mt-3 max-w-2xl text-balance font-display text-3xl font-extrabold sm:text-4xl">
-            Omomura Oito, Ogotenena na Gesusu Chingangi Chiosi.
+            Omomura Oito, Ogotenena na Gesusu Chingangi Chionsi.
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-pretty text-lg text-muted-foreground">
             Dennis Ondati Omari has spent his life within the community he now seeks to serve. His

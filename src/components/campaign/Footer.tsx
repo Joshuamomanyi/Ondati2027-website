@@ -13,8 +13,7 @@ const NAV = [
 ] as const;
 
 const SOCIALS = [
-  { icon: Facebook, href: CAMPAIGN.socials.facebook, label: "Facebook" },
-  { icon: Twitter, href: CAMPAIGN.socials.twitter, label: "X (Twitter)" },
+  { icon: Facebook, href: "https://www.facebook.com/groups/1330726385609118/media", label: "Facebook" },
   { icon: Music2, href: CAMPAIGN.socials.tiktok, label: "TikTok" },
 ];
 

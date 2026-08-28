@@ -35,7 +35,7 @@ export function Hero() {
           <div className="mx-auto mt-6 max-w-2xl rounded-2xl border border-primary-foreground/15 bg-primary-foreground/10 px-6 py-8 shadow-xl backdrop-blur-md sm:px-8 sm:py-10">
             <h1 className="text-balance font-display text-4xl font-extrabold leading-[1.05] sm:text-5xl lg:text-6xl">
               Accountable Leadership{" "}
-              <span className="text-gold">| Tiga Gesusu Emese nero</span>
+              <span className="text-gold">| Tiga Gesusu Emese See!</span>
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-pretty text-lg text-primary-foreground/90">
               I'm{" "}
