@@ -24,28 +24,34 @@ export interface Pillar {
 
 export const PILLARS: Pillar[] = [
   {
-    title: "Youth Empowerment & Job Creation",
+    title: "Water Connectivity & Modern Farming for Economic Empowerment",
     description:
-      "Skills training, startup grants, and links to markets so young people in Gesusu can build livelihoods at home.",
-    icon: "users",
+      "Access to clean and reliable water is a basic right and a foundation for development. I will champion expanded water connectivity and promote modern climate-smart farming practices to increase productivity, create jobs, and alleviate poverty at the household level.",
+    icon: "water",
   },
   {
-    title: "Transparent Ward Development Fund",
+    title: "Roads Connectivity & Street Lighting",
     description:
-      "Every shilling accounted for. Public project boards, open budgets, and community oversight of the Ward fund.",
-    icon: "shield",
+      "Good roads open up our ward for trade, education, and healthcare access. I will advocate for improved road networks and proper street lighting to enhance security, support businesses, and improve mobility across all villages.",
+    icon: "roads",
   },
   {
-    title: "Infrastructure & Market Development",
+    title: "Educational Empowerment & Inclusive Learning",
     description:
-      "All-weather roads, upgraded local markets, water access, and reliable lighting for safer, thriving trading centres.",
-    icon: "building",
+      "I will champion inclusive learning, stronger support for schools and teachers, and better opportunities for every child to access quality education and build a future in Gesusu Ward.",
+    icon: "education",
   },
   {
-    title: "Agricultural Support for Farmers",
+    title: "Working Healthcare Systems",
     description:
-      "Affordable inputs, extension services, and cooperative value chains that put more money in farmers' pockets.",
-    icon: "sprout",
+      "A healthy community is a productive community. I will work towards better-equipped health facilities, availability of essential medicines, and improved service delivery to save lives and improve overall life expectancy in Gesusu Ward.",
+    icon: "healthcare",
+  },
+  {
+    title: "Sports, Entertainment & Recreation — Let's Have Fun",
+    description:
+      "Sports and creative arts unite our people, nurture talent, and keep our youth engaged. I will promote entertainment and recreational spaces to empower youth, let's have fun and grow together.",
+    icon: "sports",
   },
 ];
 
@@ -235,4 +241,3 @@ export const NEWS_POSTS: NewsPost[] = [
     image: "event",
   },
 ];
-

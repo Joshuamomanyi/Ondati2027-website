@@ -1,12 +1,13 @@
-import { Users, Shield, Building2, Sprout, type LucideIcon } from "lucide-react";
+import { Droplets, GraduationCap, HeartPulse, Route, Trophy, type LucideIcon } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { PILLARS } from "@/lib/campaign-data";
 
 const ICONS: Record<string, LucideIcon> = {
-  users: Users,
-  shield: Shield,
-  building: Building2,
-  sprout: Sprout,
+  water: Droplets,
+  roads: Route,
+  education: GraduationCap,
+  healthcare: HeartPulse,
+  sports: Trophy,
 };
 
 export function Manifesto() {
@@ -18,14 +19,14 @@ export function Manifesto() {
             The Manifesto
           </span>
           <h2 className="mt-3 text-balance font-display text-3xl font-extrabold sm:text-4xl">
-            Four pillars for a stronger Gesusu Ward
+            5-point mandate for Gesusu Ward
           </h2>
           <p className="mt-4 text-pretty text-lg text-muted-foreground">
             A clear, practical vision — with measurable commitments the community can hold me to.
           </p>
         </Reveal>
 
-        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {PILLARS.map((p, i) => {
             const Icon = ICONS[p.icon] ?? Users;
             return (

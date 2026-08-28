@@ -6,10 +6,7 @@ import { CAMPAIGN } from "@/lib/campaign-data";
 
 export function Hero() {
   return (
-    <section
-      id="top"
-      className="relative overflow-hidden bg-primary text-primary-foreground"
-    >
+    <section id="top" className="relative overflow-hidden bg-primary text-primary-foreground">
       {/* Background portrait with deep-blue overlay */}
       <div className="absolute inset-0">
         <img
@@ -34,14 +31,13 @@ export function Hero() {
           </span>
           <div className="mx-auto mt-6 max-w-2xl rounded-2xl border border-primary-foreground/15 bg-primary-foreground/10 px-6 py-8 shadow-xl backdrop-blur-md sm:px-8 sm:py-10">
             <h1 className="text-balance font-display text-4xl font-extrabold leading-[1.05] sm:text-5xl lg:text-6xl">
-              Accountable Leadership{" "}
-              <span className="text-gold">| Tiga Gesusu Emese See!</span>
+              Accountable Leadership <span className="text-gold">| Tiga Gesusu Emese See!</span>
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-pretty text-lg text-primary-foreground/90">
               I'm{" "}
-              <strong className="font-semibold text-primary-foreground">Dennis Ondati Omari</strong>.
-              Together we'll deliver transparent development, real opportunities for our youth, and a
-              Ward that works for every family.
+              <strong className="font-semibold text-primary-foreground">Dennis Ondati Omari</strong>
+              . Together we'll deliver transparent development, real opportunities for our youth,
+              and a Ward that works for every family.
             </p>
           </div>
 
@@ -68,7 +64,7 @@ export function Hero() {
 
           <dl className="mx-auto mt-12 grid max-w-md grid-cols-3 gap-4 border-t border-primary-foreground/15 pt-6">
             {[
-              { k: "4", v: "Core pillars" },
+              { k: "5", v: "Mandate points" },
               { k: "1", v: "Ward, one team" },
               { k: "100%", v: "Accountability" },
             ].map((s) => (
