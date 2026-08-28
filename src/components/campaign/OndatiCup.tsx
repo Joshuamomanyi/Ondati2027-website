@@ -114,7 +114,7 @@ export function OndatiCup() {
       <div className="relative">
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 pb-16 pt-24 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8 lg:pb-24 lg:pt-32">
           <Reveal>
-            <span className="inline-flex rounded-full border border-gold/50 bg-gold/10 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-gold">
+            <span className="inline-flex rounded-full border border-green/50 bg-green/10 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-green">
               December Edition · Men & Women
             </span>
             <h1 className="mt-6 max-w-xl text-balance font-display text-5xl font-black uppercase leading-[0.88] sm:text-7xl">
@@ -143,7 +143,7 @@ export function OndatiCup() {
               {[
                 ["14", "Teams"],
                 ["M+W", "Categories"],
-                ["1", "Edition / Yr"],
+                ["1", "Editions / Yr"],
               ].map(([value, label]) => (
                 <div key={label}>
                   <dt className="font-display text-3xl font-black text-gold">{value}</dt>
